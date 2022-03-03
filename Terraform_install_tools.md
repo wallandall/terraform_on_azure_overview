@@ -32,3 +32,5 @@ The Azure command-line interface (Azure CLI) is a set of commands used to create
 Installation documentation can be found [here](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 
 To get familair with the Azure CLI you can review the [get started with Azure CLI](https://docs.microsoft.com/en-us/cli/azure/get-started-with-azure-cli) guide.
+
+[Back to Index](ReadMe.md)

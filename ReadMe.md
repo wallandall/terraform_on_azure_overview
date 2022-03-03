@@ -1,4 +1,4 @@
-# Intro
+# Terraform on Azure
 
 
 ## Table of Contents

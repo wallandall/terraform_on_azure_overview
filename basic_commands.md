@@ -10,8 +10,35 @@ The below table displays the 5 basic Terraform commands and where they are run w
 |                   Downloads [Providers](https://registry.terraform.io/browse/providers)                   |                                                                                                                                               |                                                                                                                                         |                                                                                                                         |                                                                                     |
 
 
-## Useful AZ Commands
+Before running Terraform Commands, you need to be logged into your Azure Tenant, have a region set as well as specify your Subscription ID. This can be achieved by the following commands
 
 * Log into Azure ```az login```
 * List all [Azure Regions](https://docs.microsoft.com/en-us/azure/virtual-machines/regions) in  a Table : ```az account list-locations -o table```
 * Set a Specific Subscription ```az account set --subscription="Subscription_id"```
+
+The below code defines the Terraform Configuration file for the Azure Provider, additional provider can be found [here](https://registry.terraform.io/browse/providers)
+
+
+```terraform {
+  required_providers {
+    azurerm = {
+      source = "hashicorp/azurerm"
+      version = "2.98.0"
+    }
+  }
+}
+# Configure the Microsoft Azure Provider
+provider "azurerm" {
+  features {}
+}
+# Create Resource Group 
+resource "azurerm_resource_group" "my_demo_rg1" {
+  location = "germanynorth"
+  name = "demo-rg1"  
+}```
+
+
+
+
+
+[Back to Index](ReadMe.md)
