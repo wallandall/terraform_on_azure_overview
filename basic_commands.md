@@ -47,5 +47,4 @@ resource "azurerm_resource_group" "my_demo_rg1" {
 4. ```terraform apply```  will ask you to confirm the creation of the resouces in Azure. Once confirmed the resources will be created. Additionally ___terraform.tfstate___ file will be created which tracks changes that have been deployed to Azure
 5. To delete the resources created by terraform, run ```terraform destroy```
 
-
 [Back to Index](ReadMe.md)
