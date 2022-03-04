@@ -1,7 +1,7 @@
 # Terraform Install Tools
 This section provides some links and basic information on how to install Terraform and tools that will help creat and deploy IaC to Azure
 
-## Install TerraFORM
+## Install Terraform
 This [link](https://www.terraform.io/downloads) will provide binaries and instructions on how to install the Terraform CLI for your operating system
 
 [View](https://releases.hashicorp.com/terraform) all versions of Terraform CLI
